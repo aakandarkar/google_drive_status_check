@@ -1,0 +1,23 @@
+{
+  "name": "akash-google-drive",
+  "version": "1.0.0",
+  "description": "Node.js Application",
+  "main": "google-drive-details.js",
+  "scripts": {
+    "start": "node google-drive-details.js"
+  },
+  "author": "Akash Kandarkar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "form-urlencoded": "^4.0.0",
+    "fs": "0.0.1-security",
+    "googleapis": "^123.0.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10",
+    "require-dir": "^1.2.0"
+  }
+}
